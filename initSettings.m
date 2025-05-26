@@ -16,8 +16,10 @@ settings.numberOfChannels     = 6;            % 接收机通道数 (导频和数据各一半)
 settings.skipNumberOfSamples  = 0;            % 信号处理的起始点 [sample number]
 
 %% Raw signal file name and other parameter ===============================
+%settings.fileName           = ...
+   %'E:\zcj_masterDegree_code_assemble\test_522_B1C_4MSpan.bin';
 settings.fileName           = ...
-   'E:\zcj_masterDegree_code_assemble\test_522_B1C_4MSpan.bin';
+   'D:\RunningCode\GNSSINS\ZCJ_GNSSINS_DeepIntegration\test_522.txt';
 settings.dataType           = 'int16';
 settings.IF                 = 0e6;      % [Hz]
 settings.samplingFreq       = 5e6;     % [Hz]

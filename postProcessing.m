@@ -1,6 +1,6 @@
 % ZCJ重构GNSS_SDR项目，并修正其中的若干BUG
 
-clear; close all; 
+clear; close all; clc;
 %%
 format ('compact');
 format ('long', 'g');
